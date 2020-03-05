@@ -9,6 +9,7 @@ endif (POLICY CMP0048)
 
 project(googletest-distribution)
 set(GOOGLETEST_VERSION 1.10.0)
+set(CMAKE_CXX_STANDARD 11)
 
 if (CMAKE_VERSION VERSION_GREATER_EQUAL "3.1")
   if(NOT CYGWIN AND NOT MSYS)
